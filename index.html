@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        display: inline-block;
+      }
+      #default {
+      }
+      #primary {
+        background-color: rgba(112, 33, 197, 0.919);
+        color: white;
+        border-radius: 4px;
+      }
+      #primary:hover {
+        background-color: rgba(117, 12, 230, 0.996);
+        color: white;
+        border-radius: 4px;
+      }
+      #accent {
+        background-color: rgb(17, 165, 214);
+        border-radius: 4px;
+        color: white;
+      }
+      #accemt:hover {
+        border-radius: 4px;
+        background-color: rgb(11, 182, 239);
+        color: white;
+      }
+      #danger {
+        background-color: rgb(236, 8, 8);
+        color: white;
+        border-radius: 4px;
+      }
+      #danger:hover {
+        background-color: rgb(249, 2, 2);
+        color: white;
+        border-radius: 4px;
+      }
+      #large {
+        border-radius: 4px;
+        height: 3.5vh;
+        width: 7vw;
+      }
+      #large:hover {
+        background-color: cornsilk;
+        border-radius: 4px;
+        height: 3.5vh;
+        width: 7vw;
+      }
+      #small {
+        width: auto;
+        height: 3vh;
+        font-size: 9px;
+      }
+      #pill {
+        border-radius: 15px;
+        width: 5vw;
+        height: 20px;
+        font-size: 9px;
+        border: 1px solid;
+      }
+      #custom {
+        background: linear-gradient(130deg, #4b5cda 30%, #bb73bb 50%);
+        border: 1px solid black;
+        outline: none;
+      }
+      #custom:hover {
+        background: linear-gradient(130deg, #4b5cda 30%, #bb73bb 50%);
+        border: 1px solid black;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="button" value="Default" id="default" />
+      <input type="button" value="Primary" id="primary" />
+      <input type="button" value="Accent" id="accent" />
+      <input type="button" value="Danger" id="danger" />
+      <input type="button" value="Large" id="large" />
+      <input type="button" value="Small" id="small" />
+      <input type="button" value="Pill" id="pill" />
+      <input type="button" value="Custom" id="custom" />
+    </div>
+  </body>
+</html>
